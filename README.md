@@ -23,24 +23,23 @@ python3.7 or later
 Clone this repository and open it in a terminal.
 
 ## Step 2 - Installation of dependencies
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install FHIR-Patient-Summary.
+1. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install FHIR-Patient-Summary.
 
 ```bash
 pip install FHIR-Patient-Summary
 ```
 
-Install Flask
+2. Install Flask
 
 ```bash
 pip install Flask
 ```
 
-Follow the steps [here](https://dotnet.microsoft.com) to install dotnet
+3. Follow the steps [here](https://dotnet.microsoft.com) to install dotnet
 
-Please follow the instructions [here](https://github.com/goshdrive/FHIRworks_2020) to get the dotnet server running.
+4. Please follow the instructions [here](https://github.com/goshdrive/FHIRworks_2020) to get the dotnet server running.
 
-
-Follow the instructions [here](https://tipsonubuntu.com/2018/08/11/install-libreoffice-6-1-ubuntu-18-04-16-04/) to install libreoffice. Note: this installation is only required if you would like to create patient summaries in pdf format.
+5. (Optional) Follow the instructions [here](https://tipsonubuntu.com/2018/08/11/install-libreoffice-6-1-ubuntu-18-04-16-04/) to install libreoffice. Note: this installation is only required if you would like to create patient summaries in pdf format.
 
 
 ## Step 3 - start dotnet server
@@ -79,5 +78,3 @@ localhost:3000/getPatientSummaryDocument?patientID=8f789d0b-3145-4cf2-8504-13159
 Get summary documents for the patients indexed from 10 to 50:
 
 localhost:3000/getMultiplePatientSummaryDocuments?start=10&end=50
-
-# GOSH-FHIRworks2020-FHIR-Patient-Summary-API
