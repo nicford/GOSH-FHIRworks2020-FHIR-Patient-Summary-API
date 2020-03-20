@@ -37,17 +37,12 @@ pip install Flask
 
 3. Follow the steps [here](https://dotnet.microsoft.com) to install dotnet
 
-4. Please follow the instructions [here](https://github.com/goshdrive/FHIRworks_2020) to get the dotnet server running.
-
-5. (Optional) Follow the instructions [here](https://tipsonubuntu.com/2018/08/11/install-libreoffice-6-1-ubuntu-18-04-16-04/) to install libreoffice. Note: this installation is only required if you would like to create patient summaries in pdf format.
+4. (Optional) Follow the instructions [here](https://tipsonubuntu.com/2018/08/11/install-libreoffice-6-1-ubuntu-18-04-16-04/) to install libreoffice. Note: this installation is only required if you would like to create patient summaries in pdf format.
 
 
 ## Step 3 - start dotnet server
-Change directory to the dotnet-azure-fhir-web-api folder. Then run the following command
 
-```bash
-dotnet run
-```
+Please follow the instructions [here](https://github.com/goshdrive/FHIRworks_2020) to get the dotnet server running.
 
 ## Step 4 - run flask server
 
