@@ -1,4 +1,4 @@
-# FHIR Patient Summary Generator
+# FHIR Patient Summary Document Generator
 
 This package allows you to generate a patient summary in docx or pdf format from a single patient ID or a list of patient IDs.
 
