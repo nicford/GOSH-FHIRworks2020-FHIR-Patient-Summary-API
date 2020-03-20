@@ -11,6 +11,10 @@ python3.7 or later
 
 [Dotnet](https://dotnet.microsoft.com)
 
+The following dotnet application must be running for the library to work.
+
+https://github.com/goshdrive/FHIRworks_2020
+
 [libreoffice](https://www.libreoffice.org) (if you want patient summaries in pdf format)
 
 # Steps to run the API locally
@@ -31,7 +35,10 @@ Install Flask
 pip install Flask
 ```
 
-Follow the steps [here](https://dotnet.microsoft.com) to install dotnet 
+Follow the steps [here](https://dotnet.microsoft.com) to install dotnet
+
+Please follow the instructions [here](https://github.com/goshdrive/FHIRworks_2020) to get the dotnet server running.
+
 
 Follow the instructions [here](https://tipsonubuntu.com/2018/08/11/install-libreoffice-6-1-ubuntu-18-04-16-04/) to install libreoffice. Note: this installation is only required if you would like to create patient summaries in pdf format.
 
