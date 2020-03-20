@@ -11,9 +11,9 @@ python3.7 or later
 
 [Dotnet](https://dotnet.microsoft.com)
 
-The following dotnet application must be running for the library to work.
+[This](https://github.com/goshdrive/FHIRworks_2020) dotnet application must be running for the library to work.
 
-https://github.com/goshdrive/FHIRworks_2020
+
 
 [libreoffice](https://www.libreoffice.org) (if you want patient summaries in pdf format)
 
